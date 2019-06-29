@@ -36,13 +36,7 @@
 -->
 
 <routes>
-    <flow id="flow_left" begin="0.00" from="l-c" end="3600.00" number="1800"/>
-    <flow id="flow_right" begin="0.00" from="r-c" end="3600.00" number="1800"/>
-    <flow id="flow_bottom" begin="0.00" from="b-c" end="3600.00" number="1800"/>
-    <!--<route edges="gneE33 gneE35" color="yellow" id="route_0"/>-->
-    <!--<route edges="gneE33 gneE34" color="yellow" id="route_1"/>-->
-    <!--<route edges="-gneE35 gneE34" color="yellow" id="route_2"/>-->
-    <!--<route edges="-gneE34 -gneE33" color="yellow" id="route_3"/>-->
-    <!--<route edges="-gneE34 gneE35" color="yellow" id="route_4"/>-->
-    <!--<route edges="-gneE35 -gneE33" color="yellow" id="route_5"/>-->
+    <flow id="flow_left" begin="0.00" from="l-c" end="3600.00" number="300"/>
+    <flow id="flow_right" begin="0.00" from="r-c" end="3600.00" number="1000" color="red"/>
+    <flow id="flow_bottom" begin="0.00" from="b-c" end="3600.00" number="500" color="green"/>
 </routes>
