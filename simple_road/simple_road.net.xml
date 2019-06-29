@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Вс 30 июн 2019 00:59:34 by Eclipse SUMO netedit Version v1_2_0+0892-31e93e81f4
+<!-- generated on Вс 30 июн 2019 01:48:06 by Eclipse SUMO netedit Version v1_2_0+0892-31e93e81f4
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <output>
@@ -14,6 +14,10 @@
     <junctions>
         <no-turnarounds value="true"/>
     </junctions>
+
+    <netedit>
+        <TLSPrograms-output value="/var/www/hackaton/traci-demo/simple_road/simple_road.tls.xml"/>
+    </netedit>
 
 </configuration>
 -->
@@ -63,8 +67,15 @@
         <lane id="r-c_0" index="0" speed="13.89" length="158.86" shape="366.06,41.60 207.20,41.60"/>
     </edge>
 
+    <tlLogic id="center" type="static" programID="0" offset="0">
+        <phase duration="42" state="GgrrGG"/>
+        <phase duration="3"  state="yyrryy"/>
+        <phase duration="42" state="rrGGGr"/>
+        <phase duration="3"  state="rryyyr"/>
+    </tlLogic>
+
     <junction id="bottom" type="dead_end" x="200.00" y="-15.00" incLanes="c-b_0" intLanes="" shape="200.00,-15.00 196.80,-15.00 200.00,-15.00"/>
-    <junction id="center" type="priority" x="200.00" y="40.00" incLanes="r-c_0 b-c_0 l-c_0" intLanes=":center_0_0 :center_6_0 :center_2_0 :center_3_0 :center_4_0 :center_5_0" shape="207.20,43.20 207.20,36.80 204.98,36.36 204.20,35.80 203.64,35.02 203.31,34.02 203.20,32.80 196.80,32.80 196.36,35.02 195.80,35.80 195.02,36.36 194.02,36.69 192.80,36.80 192.80,43.20">
+    <junction id="center" type="traffic_light" x="200.00" y="40.00" incLanes="r-c_0 b-c_0 l-c_0" intLanes=":center_0_0 :center_6_0 :center_2_0 :center_3_0 :center_4_0 :center_5_0" shape="207.20,43.20 207.20,36.80 204.98,36.36 204.20,35.80 203.64,35.02 203.31,34.02 203.20,32.80 196.80,32.80 196.36,35.02 195.80,35.80 195.02,36.36 194.02,36.69 192.80,36.80 192.80,43.20">
         <request index="0" response="000000" foes="001000" cont="0"/>
         <request index="1" response="110000" foes="111000" cont="1"/>
         <request index="2" response="100000" foes="100000" cont="0"/>
@@ -77,12 +88,12 @@
 
     <junction id=":center_6_0" type="internal" x="201.60" y="40.00" incLanes=":center_1_0 l-c_0" intLanes=":center_3_0 :center_4_0 :center_5_0"/>
 
-    <connection from="b-c" to="c-r" fromLane="0" toLane="0" via=":center_2_0" dir="r" state="m"/>
-    <connection from="b-c" to="c-l" fromLane="0" toLane="0" via=":center_3_0" dir="l" state="m"/>
-    <connection from="l-c" to="c-b" fromLane="0" toLane="0" via=":center_4_0" dir="r" state="M"/>
-    <connection from="l-c" to="c-r" fromLane="0" toLane="0" via=":center_5_0" dir="s" state="M"/>
-    <connection from="r-c" to="c-l" fromLane="0" toLane="0" via=":center_0_0" dir="s" state="M"/>
-    <connection from="r-c" to="c-b" fromLane="0" toLane="0" via=":center_1_0" dir="l" state="m"/>
+    <connection from="b-c" to="c-r" fromLane="0" toLane="0" via=":center_2_0" tl="center" linkIndex="2" dir="r" state="o"/>
+    <connection from="b-c" to="c-l" fromLane="0" toLane="0" via=":center_3_0" tl="center" linkIndex="3" dir="l" state="o"/>
+    <connection from="l-c" to="c-b" fromLane="0" toLane="0" via=":center_4_0" tl="center" linkIndex="4" dir="r" state="O"/>
+    <connection from="l-c" to="c-r" fromLane="0" toLane="0" via=":center_5_0" tl="center" linkIndex="5" dir="s" state="O"/>
+    <connection from="r-c" to="c-l" fromLane="0" toLane="0" via=":center_0_0" tl="center" linkIndex="0" dir="s" state="O"/>
+    <connection from="r-c" to="c-b" fromLane="0" toLane="0" via=":center_1_0" tl="center" linkIndex="1" dir="l" state="o"/>
 
     <connection from=":center_0" to="c-l" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":center_1" to="c-b" fromLane="0" toLane="0" via=":center_6_0" dir="l" state="m"/>
