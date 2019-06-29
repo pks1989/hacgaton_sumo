@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Вс 30 июн 2019 00:05:47 by Eclipse SUMO netedit Version v1_2_0+0892-31e93e81f4
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="/var/www/hackaton/traci-demo/moved_vehicle/demo.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/var/www/hackaton/traci-demo/simple_road/simple_road.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="0"/>
+        <junctions.limit-turn-speed value="-1"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <route-files value="/var/www/hackaton/traci-demo/simple_road/1111.xml"/>
+    </netedit>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <route edges="gneE33 gneE35" color="yellow" id="route_0"/>
+    <route edges="gneE33 gneE34" color="yellow" id="route_1"/>
+    <route edges="-gneE35 gneE34" color="yellow" id="route_2"/>
+    <route edges="-gneE34 -gneE33" color="yellow" id="route_3"/>
+    <route edges="-gneE34 gneE35" color="yellow" id="route_4"/>
+    <route edges="-gneE35 -gneE33" color="yellow" id="route_5"/>
+</routes>

@@ -1,0 +1,7 @@
+<configuration>
+    <input>
+        <net-file value="simple_road.net.xml"/>
+        <route-files value="simple_road.rou.xml"/>
+        <additional-files value="simple_road.add.xml"/>
+    </input>
+</configuration>
