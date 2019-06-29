@@ -12,17 +12,17 @@
         </interval>
     </rerouter>
 
-    <rerouter id="rerouter_0" edges="gneE33" probability="0.5">
-        <interval begin="0" end="10000">
-            <destProbReroute id="gneE35"/>
-        </interval>
-    </rerouter>
+    <!--<rerouter id="rerouter_0" edges="gneE33" probability="0.5">-->
+        <!--<interval begin="0" end="10000">-->
+            <!--<destProbReroute id="gneE35"/>-->
+        <!--</interval>-->
+    <!--</rerouter>-->
 
-    <rerouter id="rerouter_0" edges="gneE33" probability="0.5">
-        <interval begin="0" end="10000">
-            <destProbReroute id="gneE35"/>
-        </interval>
-    </rerouter>
+    <!--<rerouter id="rerouter_0" edges="gneE33" probability="0.5">-->
+        <!--<interval begin="0" end="10000">-->
+            <!--<destProbReroute id="gneE35"/>-->
+        <!--</interval>-->
+    <!--</rerouter>-->
 
     <!--<rerouter id="rerouter_2" edges="e2" probability="1">-->
         <!--<interval begin="0" end="10000">-->
