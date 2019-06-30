@@ -15,13 +15,15 @@ $array = json_decode($json,TRUE);
 
 $i=0;
 $speedSum = 0;
+$travelTimeSum = 0;
 foreach ($array['step'] as $value) {
     if($value['@attributes']['running'] > 0) {
-        $speedSum = $speedSum + $value['@attributes']['meanSpeed'];
+        $speedSum = $speedSum + $value['@attributes']['meanSpeed']*3600/1000;
+        $travelTimeSum = $travelTimeSum + $value['@attributes']['meanTravelTime'];
         $i++;
     }
 }
 
 $end = microtime(true) - $begin;
 
-print ($speedSum/$i);
+print ($speedSum/$i." ".$travelTimeSum/$i);

@@ -36,7 +36,7 @@
 -->
 
 <routes>
-    <flow id="flow_left" begin="0.00" from="l-c" end="3600.00" number="300"/>
-    <flow id="flow_right" begin="0.00" from="r-c" end="3600.00" number="1000" color="red"/>
-    <flow id="flow_bottom" begin="0.00" from="b-c" end="3600.00" number="500" color="green"/>
+    <flow id="flow_left" begin="0.00" from="l-c" to="c-r" end="3600.00" number="300"/>
+    <flow id="flow_right" begin="0.00" from="r-c" to="c-l" end="3600.00" number="1000" color="red"/>
+    <flow id="flow_bottom" begin="0.00" from="b-c" to="c-l" end="3600.00" number="500" color="green"/>
 </routes>
