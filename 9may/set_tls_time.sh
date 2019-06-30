@@ -202,130 +202,130 @@ echo "<tlLogic id=\"1473034789\" type=\"static\" programID=\"1\" offset=\"0\">
         <phase duration=\"5\"  state=\"yyyyyrrrrrrrr\"/>
     </tlLogic>
     <tlLogic id=\"6235200260\" type=\"static\" programID=\"1\" offset=\"0\">
-        <phase duration=\"81\" state=\"GGG\"/>
+        <phase duration=\"$47\" state=\"GGG\"/>
         <phase duration=\"4\"  state=\"yyy\"/>
         <phase duration=\"5\"  state=\"rrr\"/>
     </tlLogic>
     <tlLogic id=\"988903910\" type=\"static\" programID=\"1\" offset=\"0\">
-        <phase duration=\"41\" state=\"rrrGGGgGGgg\"/>
+        <phase duration=\"$48\" state=\"rrrGGGgGGgg\"/>
         <phase duration=\"4\"  state=\"rrryyyyyyyy\"/>
         <phase duration=\"41\" state=\"GGgGrrrrrrr\"/>
         <phase duration=\"4\"  state=\"yyyyrrrrrrr\"/>
     </tlLogic>
     <tlLogic id=\"cluster_1372125095_5128892210\" type=\"static\" programID=\"1\" offset=\"0\">
-        <phase duration=\"29\" state=\"rrrrGGGggrrrrGGGgg\"/>
+        <phase duration=\"$49\" state=\"rrrrGGGggrrrrGGGgg\"/>
         <phase duration=\"5\"  state=\"rrrryyyggrrrryyygg\"/>
         <phase duration=\"6\"  state=\"rrrrrrrGGrrrrrrrGG\"/>
         <phase duration=\"5\"  state=\"rrrrrrryyrrrrrrryy\"/>
-        <phase duration=\"29\" state=\"GGggrrrrrGGrrrrrrr\"/>
+        <phase duration=\"$50\" state=\"GGggrrrrrGGrrrrrrr\"/>
         <phase duration=\"5\"  state=\"yyggrrrrryyrrrrrrr\"/>
         <phase duration=\"6\"  state=\"rrGGrrrrrrrGGrrrrr\"/>
         <phase duration=\"5\"  state=\"rryyrrrrrrryyrrrrr\"/>
     </tlLogic>
     <tlLogic id=\"cluster_1537263153_5156975227\" type=\"static\" programID=\"1\" offset=\"0\">
-        <phase duration=\"40\" state=\"GGggrrrrGGGg\"/>
+        <phase duration=\"$51\" state=\"GGggrrrrGGGg\"/>
         <phase duration=\"5\"  state=\"yyyyrrrryyyy\"/>
-        <phase duration=\"40\" state=\"rrrrGGGgGrrr\"/>
+        <phase duration=\"$52\" state=\"rrrrGGGgGrrr\"/>
         <phase duration=\"5\"  state=\"rrrryyyyyrrr\"/>
     </tlLogic>
     <tlLogic id=\"cluster_1837270243_2459656072_2459656074_3792219377_4350848993\" type=\"static\" programID=\"1\" offset=\"0\">
-        <phase duration=\"39\" state=\"GGGGGGGrrrrrr\"/>
+        <phase duration=\"$53\" state=\"GGGGGGGrrrrrr\"/>
         <phase duration=\"6\"  state=\"yyyyyyyrrrrrr\"/>
-        <phase duration=\"39\" state=\"rrrrrrrGGGGGG\"/>
+        <phase duration=\"$54\" state=\"rrrrrrrGGGGGG\"/>
         <phase duration=\"6\"  state=\"rrrrrrryyyyyy\"/>
     </tlLogic>
     <tlLogic id=\"cluster_1837270372_346108887_4105151787_4105151788\" type=\"static\" programID=\"1\" offset=\"0\">
-        <phase duration=\"41\" state=\"GGGGGggrrrrGGGGGggrrrr\"/>
+        <phase duration=\"$55\" state=\"GGGGGggrrrrGGGGGggrrrr\"/>
         <phase duration=\"4\"  state=\"yyyyyyyrrrryyyyyyyrrrr\"/>
-        <phase duration=\"41\" state=\"rrrrrrrGGggrrrrrrrGGgg\"/>
+        <phase duration=\"$56\" state=\"rrrrrrrGGggrrrrrrrGGgg\"/>
         <phase duration=\"4\"  state=\"rrrrrrryyyyrrrrrrryyyy\"/>
     </tlLogic>
     <tlLogic id=\"cluster_1837270566_420172815\" type=\"static\" programID=\"1\" offset=\"0\">
-        <phase duration=\"35\" state=\"GGGGGggrrrrGGGGGggrrrr\"/>
+        <phase duration=\"$57\" state=\"GGGGGggrrrrGGGGGggrrrr\"/>
         <phase duration=\"5\"  state=\"yyyyyyyrrrryyyyyyyrrrr\"/>
-        <phase duration=\"34\" state=\"rrrrrrrGGrrrrrrrrrGGgg\"/>
+        <phase duration=\"$58\" state=\"rrrrrrrGGrrrrrrrrrGGgg\"/>
         <phase duration=\"5\"  state=\"rrrrrrryyrrrrrrrrryygg\"/>
         <phase duration=\"6\"  state=\"rrrrrrrrrGGrrrrrrrrrGG\"/>
         <phase duration=\"5\"  state=\"rrrrrrrrryyrrrrrrrrryy\"/>
     </tlLogic>
     <tlLogic id=\"cluster_1837295783_4302872935\" type=\"static\" programID=\"1\" offset=\"0\">
-        <phase duration=\"41\" state=\"rrrGGGG\"/>
+        <phase duration=\"$59\" state=\"rrrGGGG\"/>
         <phase duration=\"4\"  state=\"rrryyyy\"/>
-        <phase duration=\"41\" state=\"GGGrrrr\"/>
+        <phase duration=\"$60\" state=\"GGGrrrr\"/>
         <phase duration=\"4\"  state=\"yyyrrrr\"/>
     </tlLogic>
     <tlLogic id=\"cluster_1837295851_2459656103\" type=\"static\" programID=\"1\" offset=\"0\">
-        <phase duration=\"41\" state=\"rrrrGGGGG\"/>
+        <phase duration=\"$61\" state=\"rrrrGGGGG\"/>
         <phase duration=\"4\"  state=\"rrrryyyyy\"/>
-        <phase duration=\"41\" state=\"GGGGrrrrr\"/>
+        <phase duration=\"$62\" state=\"GGGGrrrrr\"/>
         <phase duration=\"4\"  state=\"yyyyrrrrr\"/>
     </tlLogic>
     <tlLogic id=\"cluster_1837295864_2459656212_2459656217_345725168\" type=\"static\" programID=\"1\" offset=\"0\">
-        <phase duration=\"41\" state=\"GGGGGggrrrrrGGGGGggrrrrr\"/>
+        <phase duration=\"$63\" state=\"GGGGGggrrrrrGGGGGggrrrrr\"/>
         <phase duration=\"4\"  state=\"yyyyyyyrrrrryyyyyyyrrrrr\"/>
-        <phase duration=\"41\" state=\"rrrrrrrGGGggrrrrrrrGGGgg\"/>
+        <phase duration=\"$64\" state=\"rrrrrrrGGGggrrrrrrrGGGgg\"/>
         <phase duration=\"4\"  state=\"rrrrrrryyyyyrrrrrrryyyyy\"/>
     </tlLogic>
     <tlLogic id=\"cluster_2152826103_5793269383\" type=\"static\" programID=\"1\" offset=\"0\">
-        <phase duration=\"41\" state=\"GGGGggrrrrrrGGGGgg\"/>
+        <phase duration=\"$65\" state=\"GGGGggrrrrrrGGGGgg\"/>
         <phase duration=\"4\"  state=\"yyyyyyrrrrrryyyyyy\"/>
-        <phase duration=\"41\" state=\"rrrrrrGGGGGgGrrrrr\"/>
+        <phase duration=\"$66\" state=\"rrrrrrGGGGGgGrrrrr\"/>
         <phase duration=\"4\"  state=\"rrrrrryyyyyyyrrrrr\"/>
     </tlLogic>
     <tlLogic id=\"cluster_2459656098_2459656099_612402788\" type=\"static\" programID=\"1\" offset=\"0\">
-        <phase duration=\"41\" state=\"GGggrrrrGGGg\"/>
+        <phase duration=\"$67\" state=\"GGggrrrrGGGg\"/>
         <phase duration=\"4\"  state=\"yyyyrrrryyyy\"/>
-        <phase duration=\"41\" state=\"rrrrGGGgGrrr\"/>
+        <phase duration=\"$68\" state=\"rrrrGGGgGrrr\"/>
         <phase duration=\"4\"  state=\"rrrryyyyyrrr\"/>
     </tlLogic>
     <tlLogic id=\"cluster_2459656223_345725173\" type=\"static\" programID=\"1\" offset=\"0\">
-        <phase duration=\"81\" state=\"GGgGGGg\"/>
+        <phase duration=\"$69\" state=\"GGgGGGg\"/>
         <phase duration=\"4\"  state=\"yyyyyyy\"/>
         <phase duration=\"5\"  state=\"rrrrrrr\"/>
     </tlLogic>
     <tlLogic id=\"cluster_2459656273_357855535_4267748680\" type=\"static\" programID=\"1\" offset=\"0\">
-        <phase duration=\"41\" state=\"GGggrrrGGGg\"/>
+        <phase duration=\"$70\" state=\"GGggrrrGGGg\"/>
         <phase duration=\"4\"  state=\"yyyyrrryyyy\"/>
-        <phase duration=\"41\" state=\"rrrrGGgGrrr\"/>
+        <phase duration=\"$71\" state=\"rrrrGGgGrrr\"/>
         <phase duration=\"4\"  state=\"rrrryyyyrrr\"/>
     </tlLogic>
     <tlLogic id=\"cluster_3424242416_4300247942\" type=\"static\" programID=\"1\" offset=\"0\">
-        <phase duration=\"26\" state=\"rrrrGGGGGGrrrr\"/>
+        <phase duration=\"$72\" state=\"rrrrGGGGGGrrrr\"/>
         <phase duration=\"4\"  state=\"rrrryyyyyyrrrr\"/>
-        <phase duration=\"26\" state=\"GGGgGrrrrrrrrr\"/>
+        <phase duration=\"$73\" state=\"GGGgGrrrrrrrrr\"/>
         <phase duration=\"4\"  state=\"yyyyyrrrrrrrrr\"/>
-        <phase duration=\"26\" state=\"rrrrrrrrrrGGGG\"/>
+        <phase duration=\"$74\" state=\"rrrrrrrrrrGGGG\"/>
         <phase duration=\"4\"  state=\"rrrrrrrrrryyyy\"/>
     </tlLogic>
     <tlLogic id=\"cluster_345744842_5128892216\" type=\"static\" programID=\"1\" offset=\"0\">
-        <phase duration=\"36\" state=\"GGGggrrrrGGGggrrrr\"/>
+        <phase duration=\"$75\" state=\"GGGggrrrrGGGggrrrr\"/>
         <phase duration=\"4\"  state=\"yyyggrrrryyyggrrrr\"/>
         <phase duration=\"6\"  state=\"rrrGGrrrrrrrGGrrrr\"/>
         <phase duration=\"4\"  state=\"rrryyrrrrrrryyrrrr\"/>
-        <phase duration=\"36\" state=\"rrrrrGGggrrrrrGGgg\"/>
+        <phase duration=\"$76\" state=\"rrrrrGGggrrrrrGGgg\"/>
         <phase duration=\"4\"  state=\"rrrrryyyyrrrrryyyy\"/>
     </tlLogic>
     <tlLogic id=\"cluster_3872572050_4350849007_6235200261\" type=\"static\" programID=\"1\" offset=\"0\">
-        <phase duration=\"41\" state=\"rrGGGG\"/>
+        <phase duration=\"$77\" state=\"rrGGGG\"/>
         <phase duration=\"4\"  state=\"rryyyy\"/>
-        <phase duration=\"41\" state=\"GgGrrr\"/>
+        <phase duration=\"$78\" state=\"GgGrrr\"/>
         <phase duration=\"4\"  state=\"yyyrrr\"/>
     </tlLogic>
     <tlLogic id=\"cluster_420172828_420172832_4299304987_4299305590\" type=\"static\" programID=\"1\" offset=\"0\">
-        <phase duration=\"41\" state=\"GGGGGGGGrrrrrrrr\"/>
+        <phase duration=\"$79\" state=\"GGGGGGGGrrrrrrrr\"/>
         <phase duration=\"4\"  state=\"yyyyyyyyrrrrrrrr\"/>
-        <phase duration=\"41\" state=\"rrrrrrrrGGGGGGGG\"/>
+        <phase duration=\"$80\" state=\"rrrrrrrrGGGGGGGG\"/>
         <phase duration=\"4\"  state=\"rrrrrrrryyyyyyyy\"/>
     </tlLogic>
     <tlLogic id=\"cluster_420172860_427594195\" type=\"static\" programID=\"1\" offset=\"0\">
-        <phase duration=\"41\" state=\"GGGGrrrrrrGGGgg\"/>
+        <phase duration=\"$91\" state=\"GGGGrrrrrrGGGgg\"/>
         <phase duration=\"4\"  state=\"yyyyrrrrrryyyyy\"/>
-        <phase duration=\"41\" state=\"rrrrGGGGGGrrrrr\"/>
+        <phase duration=\"$92\" state=\"rrrrGGGGGGrrrrr\"/>
         <phase duration=\"4\"  state=\"rrrryyyyyyrrrrr\"/>
     </tlLogic>
     <tlLogic id=\"cluster_420172873_420172874_4299305591\" type=\"static\" programID=\"1\" offset=\"0\">
-        <phase duration=\"41\" state=\"GGGGrrrrrrrrGGGG\"/>
+        <phase duration=\"$93\" state=\"GGGGrrrrrrrrGGGG\"/>
         <phase duration=\"4\"  state=\"yyyyrrrrrrrryyyy\"/>
-        <phase duration=\"41\" state=\"rrrrGGGGGGGGrrrr\"/>
+        <phase duration=\"$94\" state=\"rrrrGGGGGGGGrrrr\"/>
         <phase duration=\"4\"  state=\"rrrryyyyyyyyrrrr\"/>
     </tlLogic>" > ./may.tls.xml
