@@ -36,4 +36,9 @@ foreach ($array['step'] as $value) {
 
 $end = microtime(true) - $begin;
 
-print ($speedSum/$i." ".$travelTimeSum/$i);
+if($i>0) {
+    print ($speedSum/$i." ".$travelTimeSum/$i);
+}
+else {
+    print (1 . " " . 9999);
+}
