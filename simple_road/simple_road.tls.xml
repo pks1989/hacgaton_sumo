@@ -1,6 +1,6 @@
 <additionals>
     <tlLogic id="center" type="static" programID="1" offset="0">
-        <phase duration="100" state="GgrrGG"/>
+        <phase duration="20" state="GgrrGG"/>
         <phase duration="3" state="yyrryy"/>
         <phase duration="20" state="rrGGGr"/>
         <phase duration="3" state="rryyyr"/>
