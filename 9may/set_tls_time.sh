@@ -1,6 +1,6 @@
 #!/bin/sh
 # This is a comment!
-echo "<tlLogic id=\"1473034789\" type=\"static\" programID=\"1\" offset=\"0\">
+echo "<additionals><tlLogic id=\"1473034789\" type=\"static\" programID=\"1\" offset=\"0\">
         <phase duration=\"$1\" state=\"GGGGrrrrr\"/>
         <phase duration=\"4\"  state=\"yyyyrrrrr\"/>
         <phase duration=\"$2\" state=\"rrrrGGGGG\"/>
@@ -328,4 +328,4 @@ echo "<tlLogic id=\"1473034789\" type=\"static\" programID=\"1\" offset=\"0\">
         <phase duration=\"4\"  state=\"yyyyrrrrrrrryyyy\"/>
         <phase duration=\"$94\" state=\"rrrrGGGGGGGGrrrr\"/>
         <phase duration=\"4\"  state=\"rrrryyyyyyyyrrrr\"/>
-    </tlLogic>" > ./may.tls.xml
+    </tlLogic></additionals>" > ./may.tls.xml

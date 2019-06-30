@@ -5,7 +5,15 @@ $begin = microtime(true);
 //write time arguments to file
 //$argv[0] its is script name 'script.php'
 
-//shell_exec('./set_tls_time.sh '.$argv[1].' '.$argv[2].' '.$argv[3].' '.$argv[4]);
+$paramString = './set_tls_time.sh ';
+
+for ($i = 1; $i < 94; $i++) {
+    $paramString .= $argv[$i].' ';
+}
+
+$paramString .= $argv[94];
+
+shell_exec($paramString);
 
 $summary =  shell_exec('./sim.sh');
 $clearedSummary = preg_replace('/Loading configuration... done.\n/','',$summary);
